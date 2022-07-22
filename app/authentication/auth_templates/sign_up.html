@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<section class="bg-dark text-light text-center shadow mb-20">
+    <div class="container p-5 bg-dark">
+        <div class="row">
+            <div class="d-md-flex bg-dark align-items-center justify-center-evenly">
+                <h1 class="col text-center">Sign Up</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sign Up Form Content -->
+<section>
+    <div class="container-fluid p-10">
+        <div class="row">
+            <aside class="col-12 col-md-6">
+                <br>
+            {% include 'forms.html' %}
+            </aside>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <img src="https://cdn.abcotvs.com/dip/images/11607529_022822smirnoff.jpg" width="3000" height="1500"  alt="russian vodka" >
+    </div>
+    <br>
+</section>
+{% endblock %}
